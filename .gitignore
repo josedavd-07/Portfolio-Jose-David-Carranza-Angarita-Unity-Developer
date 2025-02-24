@@ -1,0 +1,42 @@
+# Archivos y directorios a ignorar
+
+# Archivos específicos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencias de Node.js
+node_modules/
+bower_components/
+
+# Preprocesadores CSS
+*.sass
+*.scss
+*.less
+
+# Archivos de compilación
+build/
+dist/
+out/
+
+# CSS minificado
+*.min.css
+
+# Archivos de dependencias
+package-lock.json
+yarn.lock
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Debug y cache
+.debug/
+.cache/
+.temp/
+
+# Otros archivos del sistema
+.DS_Store
+Thumbs.db
