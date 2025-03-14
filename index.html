@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Game Programmer - Jose David Carranza Angarita</title>
+    <title>Portfolio - Jose David Carranza Anagarita</title>
+
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Rock+Salt&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,15 +21,6 @@
         </ul>
     </nav>
 
-    <!-- <section class="hero" id="home">
-        <div class="hero-content">
-            <h1>Desarrollador de Videojuegos</h1>
-            <p>Creando experiencias únicas en el mundo de los videojuegos</p>
-            <a href="#games" class="cta-button">Ver mis juegos</a>
-        </div>
-    </section> -->
-
-    <!-- Seccion con video -->
     <section class="hero" id="home">
         <video autoplay muted loop class="hero-video">
             <source src="./Assets/video/Car.mp4" type="video/mp4">
@@ -40,36 +33,55 @@
     </section>
 
     <section class="games" id="games">
+        <video autoplay muted loop class="projects-video-background">
+            <source src="./Assets/video/MinecraftBackgroundPing.mp4" type="video/mp4">
+        </video>
         <h2>Projects</h2>
         <div class="games-grid">
             <div class="game-card">
-                <img src="./Assets/img/CarSurvivor.jpg" alt="Image game survivor car" class="game-image">
+                <img src="./Assets/img/TiemposPasadosInterface.gif" alt="Image game Tiempos Pasados" class="game-image">
                 <div class="game-info">
-                    <h3>Survivor car</h3>
-                    <p>Adventure and speed game, built on a web platform using Unity 6 and C#.
-                    </p>
+                    <h3>Tiempos Pasados</h3>
+                    <p>"Un minuto para dejar atrás lo que te atormenta. ¿Podrás hacerlo a tiempo?"
 
+                        Este juego es una experiencia corta pero intensa sobre el peso del pasado y la lucha interna por
+                        soltarlo. En un mundo cubierto de bruma, cada paso es incierto hasta que decides enfrentar lo
+                        que te retiene. Activando los monumentos, desvaneces la niebla de la culpa y los reproches,
+                        abriendo camino hacia la claridad.</p>
+                    <a class="social-media-link" href="https://github.com/jocabago15/Tiempos-Pasados" target="_blank">
+                        <img src="./Assets/img/GitHub.png" alt="GitHub" class="social-media-icon">
+                    </a>
+                    <a class="social-media-link" href="https://josedavdmast3r.itch.io/tiempos-pasados" target="_blank">
+                        <img src="./Assets/img/ItchioBlanco.png" alt="Itchio" class="social-media-icon">
+                    </a>
                 </div>
             </div>
             <div class="game-card">
-                <img src="./Assets/img/ImageGameFloorIsLava.jpg" alt="Juego 2" class="game-image">
+                <img src="./Assets/img/PortadaGame.jpg" alt="Juego 2" class="game-image">
                 <div class="game-info">
-                    <h3>The floor is lava</h3>
-                    <p>3D movement game featuring physics, player movement, and sound.</p>
-                </div>
-            </div>
-            <div class="game-card">
-                <img src="./Assets/img/ImageGamePachinko.jpg" alt="Juego 3" class="game-image">
-                <div class="game-info">
-                    <h3>Pachinko</h3>
-                    <p> 2D game featuring physics and player movement.</p>
+                    <h3>Parasite Invasion</h3>
+                    <p>Te encuentras dentro del cuerpo humano pilotando una nave de élite diseñada para erradicar virus
+                        y parásitos. Sin embargo, una amenaza se avecina: oleadas de microorganismos hostiles han
+                        invadido el sistema, disparando proyectiles infecciosos que drenan la vida del organismo.
+
+                        Tú, como piloto, eres la última defensa. Tu misión es clara: esquivar, atacar y sobrevivir.</p>
+                    <a class="social-media-link" href="https://github.com/josedavd-07/Game-Jam-N1-Parasites.git"
+                        target="_blank">
+                        <img src="./Assets/img/GitHub.png" alt="GitHub" class="social-media-icon">
+                    </a>
+                    <a class="social-media-link" href="https://josedavdmast3r.itch.io/parasite-invasion"
+                        target="_blank">
+                        <img src="./Assets/img/ItchioBlanco.png" alt="Itchio" class="social-media-icon">
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-
     <section class="about" id="about">
+        <video autoplay muted loop class="about-me-video-background">
+            <source src="./Assets/video/GenshimsBackground.mp4" type="video/mp4">
+        </video>
         <h2>About me</h2>
         <div class="about-content">
             <div class="about-image-text">
@@ -80,73 +92,36 @@
                     <p class="text-spaced">Hello, welcome! My name is Jose David Carranza Angarita. I am a game
                         developer and a Systems Engineering student.</p>
                     <p class="text-spaced">I specialize in 2D and 3D game development using tools such as:</p>
-                    <p class="text-spaced">|C#|Unity 6|JavaScript|Css|HTML|Git|GitHub|</p>
+                    <p class="text-spaced">|C#|Unity 6|JavaScript|CSS|HTML|Git|GitHub|</p>
                     <p class="text-spaced">My main focus is to create unique and immersive experiences that captivate
                         players.</p>
                 </div>
             </div>
-            <br>
-            <hr>
-            <h2>Follow me</h2>
-            <div class="social-media-container">
-                <a class="social-media-link"
-                    href="https://www.linkedin.com/in/jose-david-carranza-angarita-unity-developer/" target="_blank">
-                    <img src="./Assets/img/LinKendIn.png" alt="LinkedIn" class="social-media-icon">
-                </a>
-                <a class="social-media-link" href="https://github.com/josedavd-07" target="_blank">
-                    <img src="./Assets/img/GitHub.png" alt="GitHub" class="social-media-icon">
-                </a>
-                <a class="social-media-link" href="https://josedavdmast3r.itch.io" target="_blank">
-                    <img src="./Assets/img/ItchioBlanco.png" alt="Itchio" class="social-media-icon">
-                </a>
-                <a class="social-media-link" href="https://play.unity.com/en/user/674ed798-b082-4395-8333-d080be9521ea"
-                    target="_blank">
-                    <img src="./Assets/img/unity.png" alt="Unity" class="social-media-icon">
-                </a>
+
+            <div class="divider"></div> <!-- Línea vertical -->
+
+            <div class="social-section">
+                <h2>Follow me</h2>
+                <div class="social-media-container">
+                    <a class="social-media-link"
+                        href="https://www.linkedin.com/in/jose-david-carranza-angarita-unity-developer/"
+                        target="_blank">
+                        <img src="./Assets/img/LinKendIn.png" alt="LinkedIn" class="social-media-icon">
+                    </a>
+                    <a class="social-media-link" href="https://github.com/josedavd-07" target="_blank">
+                        <img src="./Assets/img/GitHub.png" alt="GitHub" class="social-media-icon">
+                    </a>
+                    <a class="social-media-link" href="https://josedavdmast3r.itch.io" target="_blank">
+                        <img src="./Assets/img/ItchioBlanco.png" alt="Itchio" class="social-media-icon">
+                    </a>
+                    <a class="social-media-link"
+                        href="https://play.unity.com/en/user/674ed798-b082-4395-8333-d080be9521ea" target="_blank">
+                        <img src="./Assets/img/unity.png" alt="Unity" class="social-media-icon">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
-
-
-
-
-
-
-    <!-- <section class="about" id="about">
-        <h2>Sobre mí</h2>
-        <div class="about-content">
-            <p> Hola, bienvenidos mi nombre es Jose David Carranza Angarita. Soy desarollador de videojuegos e
-                estudiante de Ingenieria de Sistemas</p>
-            <p>Me especializo en el desarrollo de videojuegos 2d y 3d, usando herramientas como:
-            </p>
-            <P>|C#|Unity 6|JavaScript|Css|HTML|Git|GitHub|
-            <p>Mi enfoque principal es crear experiencias únicas y envolventes que cautivan a los jugadores.</p>
-            <br>
-            <hr><br>
-            <h2>Sigueme</h2> -->
-
-    <!-- ssocial media follow me -->
-    <!-- <div class="social-media-container">
-                <a class="social-media-link"
-                    href="https://www.linkedin.com/in/jose-david-carranza-angarita-unity-developer/" target="_blank">
-                    <img src="./Assets/img/LinKendIn.png" alt="LinkedIn" class="social-media-icon">
-                </a>
-                <a class="social-media-link" href="https://github.com/josedavd-07" target="_blank">
-                    <img src="./Assets/img/GitHub.png" alt="GitHub" class="social-media-icon">
-                </a>
-                <a class="social-media-link" href="https://josedavdmast3r.itch.io" target="_blank">
-                    <img src="./Assets/img/ItchioBlanco.png" alt="Itchio" class="social-media-icon">
-                </a>
-                <a class="social-media-link" href="https://play.unity.com/en/user/674ed798-b082-4395-8333-d080be9521ea"
-                    target="_blank">
-                    <img src="./Assets/img/unity.png" alt="Unity" class="social-media-icon">
-                </a>
-            </div> -->
-
-    <!-- </div> -->
-
-    </section>
-
 </body>
 
 </html>

@@ -16,10 +16,8 @@ Este portfolio es mi ventana al mundo de los videojuegos, donde muestro mis proy
 
 ## 🎮 Juegos incluidos
 
-- **Survivor Car**: Aventuras a toda velocidad
-- **The Floor is Lava**: ¡Movimiento!
-- **Pachinko**: Diviértete con esta clásico
-
+- **Tiempos Pasados**: Liberate de tu pasado y vive el presente.
+- **Parasite Invasion**: Sobrevive de los parasitos que te quieren infectar y salva tu vida.
 
 ## 🕹️ Tecnologías usadas
 
