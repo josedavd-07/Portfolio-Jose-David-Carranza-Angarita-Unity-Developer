@@ -1,10 +1,10 @@
-/* General Styles */
+/* General Styles
 body {
     margin: 0;
     font-family: 'Lilita One', cursive;
     background-color: #111;
     color: #fff;
-}
+} */
 
 /* Navigation Bar */
 .nav {
@@ -46,6 +46,10 @@ body {
     font-family: 'Lilita One', cursive;
     background-color: #111;
     color: #fff;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* Navigation Bar */
@@ -189,8 +193,8 @@ body {
 
 /* Games Section */
 h3 {
-    color: #ffcc00;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    color: #40970e;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
 
 }
 
@@ -212,8 +216,8 @@ h3 {
 
 .games h2 {
     font-size: 2.5rem;
-    color: #ffcc00;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    color: #a1169a;
+    text-shadow: 2px 2px 10px rgba(3, 17, 1, 0.178);
 }
 
 .games-grid {
@@ -225,7 +229,7 @@ h3 {
 }
 
 .game-card {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(48, 53, 47, 0.918);
     padding: 20px;
     border-radius: 10px;
     width: 350px;
@@ -261,7 +265,7 @@ h3 {
 .about h2 {
     font-size: 2.5rem;
     color: #ffcc00;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 10px rgb(0, 0, 0);
 }
 
 .about-me-video-background {
