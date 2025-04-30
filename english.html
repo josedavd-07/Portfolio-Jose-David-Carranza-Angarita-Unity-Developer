@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Portfolio - Jose David Carranza Angarita</title>
     <link rel="icon" type="image/x-icon" href="./Assets/img/icon.ico">
 
@@ -15,13 +15,12 @@
 
 <body>
     <nav class="nav">
-        <ul>
+        <div class="nav-toggle">☰</div>
+        <ul class="nav-menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#games">Games</a></li>
             <li><a href="#about">About me</a></li>
-            <!-- <li><a href="./Assets/Cv/Jose David Carranza Angarita_ATS.pdf" download>Download CV</a></li> -->
-            <li><a href="https://drive.google.com/file/d/15A4mHMzeHHE8BlFX114pzmltiFc2OWY9/view?usp=sharing"
-                    target="_blank">Download CV</a></li>
+            <li><a href="https://drive.google.com/file/d/15A4mHMzeHHE8BlFX114pzmltiFc2OWY9/view?usp=sharing" target="_blank">Download CV</a></li>
             <li><a href="index.html">Spanish Version</a></li>
         </ul>
     </nav>
@@ -172,6 +171,19 @@
             </div>
         </div>
     </section>
-</body>
 
+    <script>
+        // Mobile menu
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+        
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.nav-menu').classList.remove('active');
+            });
+        });
+    </script>
+</body>
 </html>
